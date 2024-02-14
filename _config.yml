@@ -5,6 +5,8 @@ source: main
 description: > # description of the site (multiple lines allowed)
   A blog.
 
+markdown: GFM
+
 permalink: /:slug
 
 favicon: "./logo.png" # relative path to site's favicon
@@ -13,7 +15,6 @@ twitter:
     username: eugnie_capde # update or delete this
     card: summary_large_image
 
-#theme: moonwalk # if you are using GitHub Pages, change it to remote_theme: abhinavs/moonwalk
 remote_theme: abhinavs/moonwalk
 
 theme_config:
@@ -39,8 +40,7 @@ theme_config:
     title_blog: Blog
 
 soopr:
-  publish_token: "" # sign up at https://www.soopr.co to get your publish token and personalize share and reaction options
-
+  publish_token: "c555672e922a662ce631e74b79025007"
 highlighter: rouge
 
 sass:
